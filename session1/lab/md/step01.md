@@ -20,7 +20,7 @@ Android Studio looks after downloading the Android SDK for you but you can downl
 
 This download is actually the SDK Manager (not the full SDK), where you can choose which versions of the Android platform you want to install & develop with - select <b>anything above API 21 (Version 5.0)</b>. (But I'd leave all the TV and Wearable stuff :) ) 
 
-NOTE : these downloads are quite large so it's advisable to have these versions installed BEFORE class.
+NOTE : these downloads are quite large so it's advisable to have these versions installed <b>BEFORE</b> class.
 
 ![](../img/sdk.png)
 
