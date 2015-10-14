@@ -16,7 +16,6 @@ The opening project perspective is shown below.
 
 ![](../img/lab2s104.png)
 
-
 With the activity_donate open in the visual designer:
 
 ![](../img/lab2s105.png)
