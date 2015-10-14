@@ -8,6 +8,10 @@ Create a new Android application, as demonstrated in the following 5 screenshots
 
 ![](../img/lab2s102.png)
 
+Note the 'Minimum Required SDK' which may be different from the default (as above).
+
+The opening project perspective is shown below.
+
 ![](../img/lab2s103.png)
 
 ![](../img/lab2s104.png)
@@ -15,7 +19,7 @@ Create a new Android application, as demonstrated in the following 5 screenshots
 
 With the activity_donate open in the visual designer:
 
-![](../img/03.png)
+![](../img/lab2s105.png)
 
 It is important to become familiar with the structure and purpose of the three panes surrounding the Donation 'canvas':
 
