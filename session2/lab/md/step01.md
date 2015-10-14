@@ -1,18 +1,17 @@
 #Step 01 - Create Project
 
-Create a new Android application, with the following properties:
+Create a new Android application, as demonstrated in the following 5 screenshots:
 
-![](../img/00.png)
+![](../img/firstrun.png)
 
-Note the 'Minimum Required SDK' which may be different from the default.
+![](../img/lab2s101.png)
 
-Accept all the defaults in the wizard - except the name of the main activity:
+![](../img/lab2s102.png)
 
-![](../img/01.png)
+![](../img/lab2s103.png)
 
-The project will look like this:
+![](../img/lab2s104.png)
 
-![](../img/02.png)
 
 With the activity_donate open in the visual designer:
 
