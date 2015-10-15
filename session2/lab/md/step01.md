@@ -26,15 +26,15 @@ It is important to become familiar with the structure and purpose of the three p
 
 ##Pallette:
 
-![](../img/04.png)
+![](../img/lab2s107.png)
 
 ##Outline
 
-![](../img/05.png)
+![](../img/lab2s108.png)
 
 ##Properties
 
-![](../img/06.png)
+![](../img/lab2s109.png)
 
 These views are closely related - and you will need to monitor the information displayed there continually as you evolve the appearance of your activities screens.
 
