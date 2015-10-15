@@ -38,4 +38,9 @@ It is important to become familiar with the structure and purpose of the three p
 
 These views are closely related - and you will need to monitor the information displayed there continually as you evolve the appearance of your activities screens.
 
+Also, take a quick look at your <b>build.gradle</b> file to see the configuration and dependencies of your app.
+
+![](../img/lab2s110.png)
+
+
 
