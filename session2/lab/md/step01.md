@@ -18,6 +18,10 @@ The opening project perspective is shown below, with the content_donate layout o
 
 ![](../img/lab2s105.png)
 
+The project will look like this
+
+![](../img/lab2s106.png)
+
 It is important to become familiar with the structure and purpose of the three panes surrounding the Donation 'canvas':
 
 ##Pallette:
