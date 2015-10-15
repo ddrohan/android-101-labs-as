@@ -10,13 +10,11 @@ Create a new Android application, as demonstrated in the following 5 screenshots
 
 Note the 'Minimum Required SDK' which may be different from the default (as above).
 
-The opening project perspective is shown below.
-
 ![](../img/lab2s103.png)
 
 ![](../img/lab2s104.png)
 
-With the activity_donate open in the visual designer:
+The opening project perspective is shown below, with the content_donate layout open in the visual designer:
 
 ![](../img/lab2s105.png)
 
