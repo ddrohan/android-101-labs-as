@@ -84,7 +84,7 @@ Note the relationship between 'donateTitle' in both files.
 
 Bring in the following string into the donate activity now - (medium text) - and follow the same procedure as above. The designer should look like this:
 
-![](../img/12.png)
+![](../img/lab2s208.png)
 
 and our XML files will look like this:
 
