@@ -40,22 +40,6 @@ Note carefully the following features:
 
 ![](../img/lab2s207.png)
 
-Recreate the above precisely.
-
-A 'Lint warning' will have popped up in the top right:
-
-![](../img/09.png)
-
-Click on this:
-
-![](../img/10.png)
-
-.. and select 'Fix' - this is inviting us to give a name to the string, which will be stored in a separate 'string.xml' file. Give it the name 'donateTitle':
-
-![](../img/11.png)
-
-Save everything - and the lint warning should (eventually) disappear.
-
 Locate the following two files and inspect them closely:
 
 ##res/layout/activity_dontate.xml
