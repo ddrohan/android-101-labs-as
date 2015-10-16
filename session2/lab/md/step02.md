@@ -24,7 +24,7 @@ Select a 'New Resource->New String Value, and fill in the values as below
 
 ![](../img/lab2s205.png)
 
-Double-Click the widget again and enter <b>donteTitle</b> for the <b>id</b>. 
+Double-Click the widget again and enter <b>donteTitle</b> for the <b>id</b> and hit return. 
 
 ![](../img/lab2s205a.png)
 
