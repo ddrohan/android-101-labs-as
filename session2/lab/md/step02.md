@@ -8,6 +8,10 @@ In your <b>content_donate.xml</b>, delete the current 'Hello World' text, and dr
 
 ![](../img/lab2s201.png)
 
+and then
+
+![](../img/lab2s202.png)
+
 Note carefully the following features:
 
 - the guides tyeing the text to the left, top and right corner
