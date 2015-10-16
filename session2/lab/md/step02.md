@@ -12,11 +12,19 @@ Now, Double-Click the widget and you will be presented with the following:
 
 ![](../img/lab2s202.png)
 
+Select the elipse (on the right hand side, indicated below)
+
 ![](../img/lab2s203.png)
+
+and you will be presented with the Resources Menu
 
 ![](../img/lab2s204.png)
 
+Select a 'New Resource->New String Value, and fill in the values as below
+
 ![](../img/lab2s205.png)
+
+Once completed, you'll have something like this
 
 ![](../img/lab2s206.png)
 
