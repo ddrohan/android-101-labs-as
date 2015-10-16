@@ -2,11 +2,11 @@
 
 For this lab, our objective is to produce an Android App that looks something like this:
 
-![](../img/001.png)
+![](../img/completeappv1.png)
 
-In eclipse, delete the current 'Hello World' text, and drag and drop a new 'LargeText' form widget onto the canvas. Look closely at the following:
+In you <b>content_donate.xml</b>, delete the current 'Hello World' text, and drag and drop a new 'LargeText' form widget onto the canvas, and 'stretch' the widget to fill the canvas. Look closely at the following:
 
-![](../img/08.png)
+![](../img/lab2s201.png)
 
 Note carefully the following features:
 
