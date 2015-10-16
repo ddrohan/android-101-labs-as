@@ -12,7 +12,13 @@ Now, Double-Click the widget and you will be presented with the following:
 
 ![](../img/lab2s202.png)
 
+![](../img/lab2s203.png)
 
+![](../img/lab2s204.png)
+
+![](../img/lab2s205.png)
+
+![](../img/lab2s206.png)
 
 Note carefully the following features:
 
