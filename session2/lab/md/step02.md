@@ -11,7 +11,7 @@ In your <b>content_donate.xml</b>, delete the current 'Hello World' text, and dr
 Note carefully the following features:
 
 - the guides tyeing the text to the left, top and right corner
-- in Outline - the name of the control has been changed from a default to 'donateTitle'. This is changed by selecting the item in outline, and selecting 'Edit ID' from the context menu.
+- in Outline - the name of the control has been changed from a default to 'donateTitle'. This is changed by selecting the item in outline, and selecting 'Edit ID' from the context menu (or find the <b>id</b> property in the properties table.
 - in Properties - where we entered 'Welcome Homer' into the text field
 
 Recreate the above precisely.
