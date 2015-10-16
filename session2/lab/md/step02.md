@@ -42,7 +42,7 @@ Note carefully the following features:
 
 Locate the following two files and inspect them closely:
 
-##res/layout/activity_dontate.xml
+##res/layout/content_dontate.xml
 ~~~xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -74,14 +74,13 @@ Locate the following two files and inspect them closely:
 
     <string name="app_name">Donation</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="donateTitle">Welcome Homer</string>
 
 </resources>
 
 ~~~
 
-Note the relationship between 'donateTitle' in both files. Also note we have a superfluous 'hello_world' string left over from the generated app. We can delete this now.
+Note the relationship between 'donateTitle' in both files.
 
 Bring in the following string into the donate activity now - (medium text) - and follow the same procedure as above. The designer should look like this:
 
