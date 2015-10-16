@@ -15,7 +15,7 @@ and then
 Note carefully the following features:
 
 - the guides tyeing the text to the left, top and right corner
-- in Outline - the name of the control has been changed from a default to 'donateTitle'. This is changed by selecting the item in outline, and selecting 'Edit ID' from the context menu (or find the <b>id</b> property in the properties table.
+- in Outline - the name of the control has been changed from a default to 'donateTitle'. This is changed by selecting the item in outline and find the <b>id</b> property in the properties table, and change accordingly.
 - in Properties - where we entered 'Welcome Homer' into the text field
 
 Recreate the above precisely.
