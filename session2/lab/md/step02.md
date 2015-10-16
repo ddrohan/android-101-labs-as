@@ -24,6 +24,10 @@ Select a 'New Resource->New String Value, and fill in the values as below
 
 ![](../img/lab2s205.png)
 
+Double-Click the widget again and enter <b>donteTitle</b> for the <b>id</b>. 
+
+![](../img/lab2s205a.png)
+
 Once completed, you'll have something like this
 
 ![](../img/lab2s206.png)
@@ -31,8 +35,8 @@ Once completed, you'll have something like this
 Note carefully the following features:
 
 - the guides tyeing the text to the left, top and right corner
-- in Outline - the name of the control has been changed from a default to 'donateTitle'. This is changed by selecting the item in outline and find the <b>id</b> property in the properties table, and change accordingly.
-- in Properties - where we entered 'Welcome Homer' into the text field
+- in Outline - the name of the control has been changed from a default to 'donateTitle'.
+- in Properties - check the value for 'text' and notice we entered 'Welcome Homer' into the text field
 
 Recreate the above precisely.
 
