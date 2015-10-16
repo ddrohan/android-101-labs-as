@@ -8,9 +8,11 @@ In your <b>content_donate.xml</b>, delete the current 'Hello World' text, and dr
 
 ![](../img/lab2s201.png)
 
-and then
+Now, Double-Click the widget and you will be presented with the following:
 
 ![](../img/lab2s202.png)
+
+
 
 Note carefully the following features:
 
