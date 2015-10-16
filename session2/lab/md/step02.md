@@ -36,7 +36,9 @@ Note carefully the following features:
 
 - the guides tyeing the text to the left, top and right corner
 - in Outline - the name of the control has been changed from a default to 'donateTitle'.
-- in Properties - check the value for 'text' and notice we have a string reference linking to our <b>strings.xml</b>
+- in Properties - check the value for 'text' and notice we have a string reference linking to our <b>strings.xml</b> (below)
+
+![](../img/lab2s207.png)
 
 Recreate the above precisely.
 
