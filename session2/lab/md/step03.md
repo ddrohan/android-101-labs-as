@@ -1,4 +1,4 @@
-#Step 03 - Donate Button
+#Step 03 - The 'Donate' Button
 
 Place a button directly on to the activity - attached to the bottom of the screen as shown:
 
