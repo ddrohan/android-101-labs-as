@@ -133,7 +133,7 @@ Insert the following new field into the class:
 
 The class will have to be imported. The class name will always match the name in the Palette:
 
-![](../img/15.png)
+![](../img/lab2s302.png)
 
 We are free to call the variable anything we like. However, in order to keep confusion to a minimum, always call the variable by the same name you used in the Outline view:
 
