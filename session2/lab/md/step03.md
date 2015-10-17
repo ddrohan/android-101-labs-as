@@ -2,70 +2,65 @@
 
 Place a button directly on to the activity - attached to the bottom of the screen as shown:
 
-![](../img/13.png)
+![](../img/lab2s301.png)
 
-Rename the button in the Outline view:
-
-![](../img/14.png)
-
-Fix the lint error - and give the button the text 'Donate!'. If all goes as expected, your xml files should be like this:
+Following a similar procedure as in the previous step, rename the button and add an id, both called <b>donateButton</b> If all goes as expected, your xml files should be like this:
 
 ###activity_donate.xml 
 
 ~~~xml
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Donate" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_donate" tools:context=".Donate">
 
     <TextView
-        android:id="@+id/donateTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/donateTitle"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:id="@+id/donateTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
-        android:id="@+id/donateSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/donateTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/donateSubtitle"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:id="@+id/donateSubtitle"
+        android:layout_below="@+id/donateTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:layout_alignEnd="@+id/donateTitle" />
 
     <Button
-        android:id="@+id/donateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/donateButton"
+        android:id="@+id/donateButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/donateButton" />
-
+        android:layout_marginBottom="47dp" />
 </RelativeLayout>
 ~~~
 
 ##strings.xml
 
 ~~~xml
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Donation</string>
+    <string name="app_name">Donation.1.0</string>
     <string name="action_settings">Settings</string>
     <string name="donateTitle">Welcome Homer</string>
-    <string name="donateSubtitle">Please give generously</string>
+    <string name="donateSubtitle">Please Give Generously</string>
     <string name="donateButton">Donate</string>
-
 </resources>
 ~~~
 
