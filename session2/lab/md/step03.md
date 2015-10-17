@@ -137,7 +137,7 @@ The class will have to be imported. The class name will always match the name in
 
 We are free to call the variable anything we like. However, in order to keep confusion to a minimum, always call the variable by the same name you used in the Outline view:
 
-![](../img/16.png)
+![](../img/lab2s303.png)
 
 In onCreate - we need to initialise this variable:
 
