@@ -220,22 +220,17 @@ public class Donate extends AppCompatActivity {
 
 ~~~
 
-Finding the log message can be very difficult, unless you set a filter. In the 'LogCat' view in eclipse, create a filter like this:
+Finding the log message can be very difficult, unless you set a filter. In the 'LogCat' view in Android Studio, create a filter like this:
 
-![](../img/17.png)
+![](../img/lab2s304.png)
 
-If you then select the filter, we should see our message:
+Enter the name and filter as below
 
-![](../img/18.png)
+![](../img/lab2s305.png)
 
-We should check the donate button actually exists before logging our success:
+and if you then select the filter, we should see our message:
 
-~~~java
-    if (donateButton != null)
-    {
-      Log.v("Donate", "Really got the donate button");
-    }
-~~~
+![](../img/lab2s306.png)
 
 Run the app again, and verify the above message appears.
 
