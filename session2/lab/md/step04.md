@@ -48,7 +48,7 @@ Then, edit the content_donate xml file - and add a new 'onClick' attribute into 
 
 Save everything and execute the app, and monitor the log as you press the button:
 
-![](../img/19.png)
+![](../img/lab2s401.png)
 
 We now have our first interaction working!
 
