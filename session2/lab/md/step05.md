@@ -1,8 +1,8 @@
-#Step 05 - Research + New Control Layout
+#Step 05 - New Control Layout
 
 Recall the UI we are trying to implement:
 
-![](../img/001.png)
+![](../img/completeappv1.png)
 
 We need radio buttons, some sort of selection/combo box + a progress bar. These can be found in various locations in the pallette:
 
