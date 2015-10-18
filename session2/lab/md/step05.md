@@ -89,7 +89,7 @@ For reference purposes (try to do it yourself first!), these are the relevant ge
         android:layout_height="match_parent"
         android:layout_below="@+id/donateSubtitle"
         android:layout_alignParentStart="true"
-        android:id="@+id/paymentGroup"
+        android:id="@+id/paymentMethod"
         android:layout_toStartOf="@+id/amountPicker"
         android:layout_above="@+id/progressBar">
 
