@@ -34,8 +34,8 @@ We can also open up three pages of documentation - which we can reverse engineer
 
 Note this time we have gone to the Activity class before actually creating the controls. We should do this now - and remember to use the same names (for the IDs) as we create the controls.
 
-![](../img/23.png)
-![](../img/24.png)
+![](../img/lab2s503.png)
+![](../img/lab2s504.png)
 
 Getting the layout +id names as shown above may take some practice. However, it is an essential skill to get on top of, even it it takes a lot of trial and error.
 
