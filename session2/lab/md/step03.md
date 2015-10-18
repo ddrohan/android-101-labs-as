@@ -148,7 +148,10 @@ In onCreate - we need to initialise this variable:
 We might also add a logging message so we can have some feedback as the app launches:
 
 ~~~
-    Log.v("Donate", "got the donate button");
+    if (donateButton != null)
+        {
+            Log.v("Donate", "Really got the donate button");
+        }
 ~~~
 
 This is the complete activity class:
