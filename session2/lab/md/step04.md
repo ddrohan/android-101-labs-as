@@ -5,7 +5,7 @@ The android documentation is particularly helpful and well designed. These are t
 - <http://developer.android.com/guide/components/index.html>
 - <http://developer.android.com/reference/packages.html>
 
-The first is designed to be read though as a guide, perhaps independent of any work in eclipse. You should get into the habit of devoting an hour or two a week just reading this section.
+The first is designed to be read though as a guide, perhaps independent of any work in Android Studio. You should get into the habit of devoting an hour or two a week just reading this section.
 
 The Reference guide should always be open as you are working on labs or projects, and you should make a serious effort to get to grips with at least some of the information here.
 
@@ -30,16 +30,17 @@ Try this now. Bring in a new method into Donate class:
    }
 ~~~
 
-Then, edit the activity_donate xml file - and add a new attribute into the Button xml fragment:
+Then, edit the content_donate xml file - and add a new 'onClick' attribute into the Button xml fragment:
 
 ~~~xml
     <Button
-        android:id="@+id/donateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/donateButton"
+        android:id="@+id/donateButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/donateButton" 
+        android:layout_marginBottom="47dp"
         android:onClick="donateButtonPressed"/>
 ~~~
 
