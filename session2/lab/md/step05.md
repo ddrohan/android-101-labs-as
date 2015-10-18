@@ -8,6 +8,7 @@ We need radio buttons, some sort of selection/combo box + a progress bar. These 
 
 ![](../img/lab2s107.png)
 ![](../img/lab2s501.png)
+![](../img/lab2s502.png)
 
 RadioGroup, ProgressBar and NumberPicker seem likely candidates. The names of these controls are exactly as advertised, and we can expect them to be in the 'widgets' package. To verify this, try importing them at the top of the Donate activity class:
 
