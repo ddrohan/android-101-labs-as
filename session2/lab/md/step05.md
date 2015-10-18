@@ -129,17 +129,14 @@ For reference purposes (try to do it yourself first!), these are the relevant ge
 ~~~
 
 ~~~xml
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Donation</string>
+    <string name="app_name">Donation.1.0</string>
     <string name="action_settings">Settings</string>
     <string name="donateTitle">Welcome Homer</string>
-    <string name="donateSubtitle">Please give generously</string>
-    <string name="donateButton">Button</string>
-    <string name="PayPal">PayPal</string>
-    <string name="Direct">Direct</string>
-
+    <string name="donateSubtitle">Please Give Generously</string>
+    <string name="donateButton">Donate</string>
+    <string name="paypal">PayPal</string>
+    <string name="direct">Direct</string>
 </resources>
 ~~~
 
