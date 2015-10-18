@@ -225,6 +225,8 @@ public class Donate extends AppCompatActivity {
 
 Finding the log message can be very difficult, unless you set a filter. In the 'LogCat' view in Android Studio, create a filter like this:
 
+Choose "Edit Filter Configuration" on the right-hand-side of the LogCat View
+
 ![](../img/lab2s304.png)
 
 Enter the name and filter as below
