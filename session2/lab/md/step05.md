@@ -7,7 +7,7 @@ Recall the UI we are trying to implement:
 We need radio buttons, some sort of selection/combo box + a progress bar. These can be found in various locations in the pallette:
 
 ![](../img/lab2s107.png)
-![](../img/22.png)
+![](../img/lab2s501.png)
 
 RadioGroup, ProgressBar and NumberPicker seem likely candidates. The names of these controls are exactly as advertised, and we can expect them to be in the 'widgets' package. To verify this, try importing them at the top of the Donate activity class:
 
