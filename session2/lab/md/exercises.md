@@ -63,7 +63,7 @@ You will use standard TextView for this:
 
 You already have a number of these on screen. Your layout could be revised to look like this:
 
-![](../img/27.png)
+![](../img/lab2s904.png)
 
 
 Archive of lab with Exercises:
