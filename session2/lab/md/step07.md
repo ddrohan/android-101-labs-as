@@ -130,6 +130,6 @@ public class Donate extends AppCompatActivity {
 
 ~~~
 
-So run your App again just to confirm the logCat entries
+So run your app again just to confirm the logCat entries
 
 ![](../img/lab2s701.png)
