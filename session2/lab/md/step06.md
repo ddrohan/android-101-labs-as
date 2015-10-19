@@ -43,3 +43,5 @@ And in donateButtonPressed:
 
 Run this now - and verify that it operates as expected (see the actual amounts in the log file).
 
+![](../img/lab2s601.png)
+
