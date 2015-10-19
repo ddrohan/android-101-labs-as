@@ -258,5 +258,4 @@ and here:
     String method = paymentMethod.getCheckedRadioButtonId() == R.id.PayPal ? "PayPal" : "Direct";
 ~~~
 
-
 Android code can become very verbose and complex. Carefully formatting is essential if you are not to be overwhelmed.
