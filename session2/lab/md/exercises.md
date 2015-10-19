@@ -8,7 +8,7 @@ Archive of lab so far:
 
 Consider an alternative to the NumberPicker - specifically one of the "Text Fields" controls:
 
-![](../img/25.png)
+![](../img/lab2s901.png)
 
 These are mostly EditView objects:
 
@@ -16,7 +16,11 @@ These are mostly EditView objects:
 
 Redesign the activity to take a value from the picker or directly from a text view:
 
-![](../img/26.png)
+![](../img/lab2s902.png)
+
+![](../img/lab2s901.png)
+
+![](../img/lab2s903.png)
 
 If the number picker is set to zero, then attempt to get a number from the text view.
 
