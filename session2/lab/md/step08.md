@@ -30,7 +30,9 @@ Lets set max progress bar to 10000 in onCreate:
     progressBar.setProgress(totalDonated);
 ~~~
 
-Try this now and observe the progress bar.
+Try this now and observe the progress bar and logCat
+
+
 
 This is the complete class so far:
 
