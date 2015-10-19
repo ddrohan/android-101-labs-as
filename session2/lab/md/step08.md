@@ -28,6 +28,9 @@ Lets set max progress bar to 10000 in onCreate:
 ~~~java
     totalDonated = totalDonated + amount;
     progressBar.setProgress(totalDonated);
+    
+    Log.v("Donate", "Donate Pressed! with amount " + amount + ", method: " + method);
+    Log.v("Donate", "Current total " + totalDonated);
 ~~~
 
 Try this now and observe the progress bar and logCat
