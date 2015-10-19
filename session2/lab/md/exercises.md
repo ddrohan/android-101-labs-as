@@ -55,9 +55,9 @@ Hint - here is how you can display a simple alert:
 
 ##Exercise 3:
 
-Show on screen at all times the total amount donated.
+Modify the colour scheme for our widgets..
 
-You will use standard TextView for this:
+You will notice that the Floating Action Button, the Radio Buttons, the Progress Bar etc, are all a kind of pink - not really in line with our current colour scheme.
 
 - <http://developer.android.com/reference/android/widget/TextView.html>
 
