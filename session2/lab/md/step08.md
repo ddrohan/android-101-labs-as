@@ -32,7 +32,7 @@ Lets set max progress bar to 10000 in onCreate:
 
 Try this now and observe the progress bar and logCat
 
-
+![](../img/lab2s801.png)
 
 This is the complete class so far:
 
