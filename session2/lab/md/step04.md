@@ -30,7 +30,7 @@ Try this now. Bring in a new method into Donate class:
    }
 ~~~
 
-Then, edit the content_donate xml file - and add a new 'onClick' attribute into the Button xml fragment:
+Then, edit the <b>content_donate.xml</b> file - and add a new 'onClick' attribute into the Button xml fragment:
 
 ~~~xml
     <Button
