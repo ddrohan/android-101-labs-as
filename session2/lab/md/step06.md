@@ -41,7 +41,7 @@ And in donateButtonPressed:
    }
 ~~~
 
-Run this now - and verify that it operates as expected (see the actual amounts in the log file below).
+Run this now - and verify that it operates as expected (see the actual amounts in the log file, as below).
 
 ![](../img/lab2s601.png)
 
