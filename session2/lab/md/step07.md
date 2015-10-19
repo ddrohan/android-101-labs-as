@@ -1,6 +1,6 @@
-#Step 07 - Radio Button
+#Step 07 - The Radio Buttons
 
-In donateButtonPressed we need to discover which payment method has been selected. Our RadioGroup documentation is here:
+In <i>donateButtonPressed()</i> we need to discover which payment method has been selected. Our RadioGroup documentation is here:
 
 - <http://developer.android.com/reference/android/widget/RadioGroup.html>
 
@@ -8,7 +8,7 @@ This looks like the method we need:
 
 - [getCheckedRadioButtonId()](http://developer.android.com/reference/android/widget/RadioGroup.html#getCheckedRadioButtonId())
 
-This is a revised version of donateButtonPressed()
+This is a revised version of <i>donateButtonPressed()</i>
 
 ~~~java
   public void donateButtonPressed (View view) 
@@ -30,7 +30,7 @@ This is a revised version of donateButtonPressed()
 
 Run it now and verify we are getting the correct logs.
 
-We can simplify it somewhat by reducing the if statement to a singlle line:
+We can simplify it somewhat by reducing the if statement to a single line:
 
 ~~~java
     String method = radioId == R.id.PayPal ? "PayPal" : "Direct";
@@ -96,4 +96,6 @@ public class Donate extends Activity
 }
 ~~~
 
- 
+So run your App again just to confirm the logCat entries
+
+![](../img/lab2s701.png)
