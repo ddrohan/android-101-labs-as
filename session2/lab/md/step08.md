@@ -62,6 +62,7 @@ public class Donate extends AppCompatActivity {
     private RadioGroup      paymentMethod;
     private ProgressBar     progressBar;
     private NumberPicker    amountPicker;
+    
     private int             totalDonated = 0;
 
     @Override
