@@ -148,7 +148,7 @@ If we have our naming conventions right - then we can bind to these new controls
 ~~~
 
 
-This is the complete Donate class:
+This is the complete Donate class so far:
 
 ~~~java
 package ie.app;
