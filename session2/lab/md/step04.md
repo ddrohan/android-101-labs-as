@@ -32,6 +32,8 @@ Try this now. Bring in a new method into Donate class:
 
 Then, edit the <b>content_donate.xml</b> file - and add a new 'onClick' attribute into the Button xml fragment:
 
+(the very last entry)
+
 ~~~xml
     <Button
         android:layout_width="wrap_content"
@@ -44,7 +46,7 @@ Then, edit the <b>content_donate.xml</b> file - and add a new 'onClick' attribut
         android:onClick="donateButtonPressed"/>
 ~~~
 
-(the very last entry)
+
 
 Save everything and execute the app, and monitor the log as you press the button:
 
