@@ -1,4 +1,4 @@
-#Step 08 - Progress Bar
+#Step 08 - The Progress Bar
 
 The progress bar documentation:
 
