@@ -4,7 +4,7 @@ Archive of lab so far:
 
 - [Donation.1.0.zip](../archives/Donation.1.0.zip)
 
-##Exercises 1:
+##Exercise 1:
 
 Consider an alternative to the NumberPicker - specifically one of the "Text Fields" controls:
 
