@@ -8,8 +8,6 @@ Archive of lab so far:
 
 Consider an alternative to the NumberPicker - specifically one of the "Text Fields" controls:
 
-![](../img/lab2s901.png)
-
 These are mostly EditView objects:
 
 - <http://developer.android.com/reference/android/widget/EditText.html>
