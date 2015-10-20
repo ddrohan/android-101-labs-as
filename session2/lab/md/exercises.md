@@ -59,9 +59,8 @@ Modify the colour scheme for our widgets..
 
 You will notice that the Floating Action Button, the Radio Buttons, the Progress Bar etc, are all a kind of pink - not really in line with our current colour scheme.
 
-- <http://developer.android.com/reference/android/widget/TextView.html>
+Hint - have a look at your <b>colors.xml</b> 
 
-You already have a number of these on screen. Your layout could be revised to look like this:
 
 ![](../img/lab2s904.png)
 
