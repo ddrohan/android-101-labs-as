@@ -12,7 +12,7 @@ These are mostly EditView objects:
 
 - <http://developer.android.com/reference/android/widget/EditText.html>
 
-Redesign the activity to take a value from the picker or directly from a text view:
+Redesign the activity to take a value from the picker or directly from a text view and maintain a "Total so Far" Value:
 
 ![](../img/lab2s902.png)
 
