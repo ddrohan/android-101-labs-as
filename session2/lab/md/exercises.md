@@ -66,7 +66,7 @@ You already have a number of these on screen. Your layout could be revised to lo
 ![](../img/lab2s904.png)
 
 
-Archive of lab with Exercises:
+Archive of lab with the above Exercises:
 
 - [Donation.1.5.zip](../archives/Donation.1.5.zip)
 
