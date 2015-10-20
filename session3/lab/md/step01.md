@@ -1,6 +1,6 @@
 #Package Name
 
-This is the current version of the donation-android app:
+This is the current version of the <b>Donation</b> app:
 
 - [Donation.1.5.zip](../archives/Donation.1.5.zip)
 
