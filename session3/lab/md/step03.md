@@ -26,35 +26,29 @@ and build a layout similar to the following:
 This is the layout file itself:
 
 ~~~xml
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Test" >
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/reportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/reportTitle"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:id="@+id/reportTitle"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <ListView
-        android:id="@+id/reportList"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/reportTitle"
-        android:layout_below="@+id/reportTitle" >
-
-    </ListView>
-
+        android:id="@+id/reportList"
+        android:layout_below="@+id/reportTitle"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
 ~~~
 
