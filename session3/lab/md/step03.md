@@ -52,10 +52,12 @@ This is the layout file itself:
 </RelativeLayout>
 ~~~
 
-Introduce a new Class into ie.app.activities to render this activity:
+Introduce a new Empty Activity into ie.app.activities to render this activity:
+
+and replace it with the following:
 
 ~~~java
-package app.activities;
+package ie.app.activities;
 
 import app.donation.R;
 import app.main.DonationApp;
@@ -64,7 +66,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Report extends Activity
+public class Report extends AppCompatActivity
 {
   ListView listView;
   
