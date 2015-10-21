@@ -12,6 +12,8 @@ Design a new layout called <b>activity_report</b>. Do this by locating the res/l
 
 You can choose all the defaults for this layout.
 
+![](../img/lab3s302.png)
+
 This is the layout file itself:
 
 ~~~xml
