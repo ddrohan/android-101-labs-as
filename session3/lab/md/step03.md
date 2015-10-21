@@ -54,6 +54,8 @@ This is the layout file itself:
 
 Introduce a new Empty Activity into ie.app.activities to render this activity:
 
+![](../img/lab3s305.png)
+
 and replace it with the following:
 
 ~~~java
