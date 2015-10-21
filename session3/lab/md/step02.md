@@ -32,4 +32,4 @@ In Donate.java, change the onOptionsItemSelected method to look like this:
 ~~~
 Run the app and when you press the menu button (or the overflow menu) and select 'Report', you should see the toast message appear.
 
-![](../img/lab3s103.png)![](../img/lab3s104.png)
+![](../img/lab3s103.png) ![](../img/lab3s104.png)
