@@ -10,6 +10,8 @@ Design a new layout called <b>activity_report</b>. Do this by locating the res/l
 
 ![](../img/lab3s301.png)
 
+You can choose all the defaults for this layout.
+
 This is the layout file itself:
 
 ~~~xml
