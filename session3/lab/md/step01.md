@@ -25,5 +25,7 @@ and drag in your <b>Donate.java</b> into this new package. You can delete the em
 
 ![](../img/lab3s102.png)
 
+So make sure your project structure looks like the above before continuing.
+
 Also, don't forget to change the <b>app_name</b> string resource in your strings.xml.
 
