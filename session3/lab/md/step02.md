@@ -10,7 +10,8 @@ We have a menu resource called 'menu_donate.xml' in the res/menu folder. Modify 
   <item
        android:id="@+id/menuReport"
         android:orderInCategory="100"
-        android:title="@string/menuReport"/>
+        android:title="@string/menuReport"
+        app:showAsAction="never"/>
 ~~~
 (Make sure it is within the <b>'menu'</b> element)
 
