@@ -45,6 +45,6 @@ Also, don't forget to change the <b>app_name</b> string resource in your strings
 You should 'Clean' your project at this stage "Build->Clean Project", and then Rebuild & finally run your app, to make sure everything is ok.
 
 
-This is the current version of the <b>Donation</b> app:
+This is the current version of the <b>Donation</b> app (Your Starter Code for this lab, after you've completed the above):
 
 - [Donation.2.0.zip](../archives/Donation.2.0.Starter.zip)
