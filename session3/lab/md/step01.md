@@ -15,7 +15,9 @@ To continue using this project we need to 'refactor' it to <b>Donation.2.0</b>. 
 7. Launch Android Studio and open up the <b>Donation.2.0</b> project
 
 
-We should also take this opportunity to change the name of the 'ie.app' package to 'ie.app.activities', as we will be introducing other packages later on
+We should also take this opportunity to change the name of the 'ie.app' package to 'ie.app.activities', as we will be introducing other packages later on.
+
+Also, don't forget to change the <b>app_name</b> string resource in your strings.xml.
 
 
 ![](../img/02.png)
