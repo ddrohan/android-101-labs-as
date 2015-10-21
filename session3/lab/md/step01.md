@@ -17,7 +17,13 @@ To continue using this project we need to 'refactor' it to <b>Donation.2.0</b>. 
 
 We should also take this opportunity to change the name of the 'ie.app' package to 'ie.app.activities', as we will be introducing other packages later on.
 
+So create a new Package (in the 'main' folder)
+
+![](../img/lab3s101.png)
+
+and drag in your <b>Donate.java</b> into this new package. You can delete the empty package (if Android Studio hasn't done it already)
+
+![](../img/lab3s102.png)
+
 Also, don't forget to change the <b>app_name</b> string resource in your strings.xml.
 
-
-![](../img/02.png)
