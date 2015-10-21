@@ -52,7 +52,7 @@ This is the layout file itself:
 </RelativeLayout>
 ~~~
 
-Introduce a new Class into app.activities to render this activity:
+Introduce a new Class into ie.app.activities to render this activity:
 
 ~~~java
 package app.activities;
