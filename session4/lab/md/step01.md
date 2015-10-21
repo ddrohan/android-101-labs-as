@@ -2,7 +2,7 @@
 
 In order to keep our application design coherent, we now bring in an Base class and a Donation class to manage our Donations. You can continue with your own version of the app or start with the solution from the previous lab - [Donation.2.0](../archives/Donation.2.0.zip)
 
-First, create a new package called 'app.models' and bring in this class here:
+First, create a new package called 'ie.app.models' and bring in this class here:
 
 ~~~java
 package app.models;
