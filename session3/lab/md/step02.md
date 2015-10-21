@@ -1,45 +1,32 @@
 #Menu
 
-In Donation, introduce the following menu event handler:
+Open <b>res/values/strings.xml</b> and introduce a new String resource like this:
+~~~xml
+<string name="menuReport">Report</string>
+~~~
 
+We have a menu resource called 'menu_donate.xml' in the res/menu folder. Modify this file by adding this new menu item:
+~~~xml
+  <item
+       android:id="@+id/menuReport"
+        android:orderInCategory="100"
+        android:title="@string/menuReport"/>
+~~~
+(Make sure it is within the <b>'menu'</b> element)
+
+In Donate.java, change the onOptionsItemSelected method to look like this:
 ~~~java
   @Override
   public boolean onOptionsItemSelected(MenuItem item)
   {
     switch (item.getItemId())
     {
-      case R.id.action_settings: Toast toast = Toast.makeText(this, "Settings Selected", Toast.LENGTH_SHORT);
-                                 toast.show();
-                                 break;
+      case R.id.menuReport:
+        Toast toast = Toast.makeText(this, "Report Selected", Toast.LENGTH_SHORT);
+        toast.show();
+        break;
     }
     return true;
   }
 ~~~
-
-We already have a menu called 'donate.xml' in the res folder. Add a new menu item like the one shown below:
-
-~~~xml
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/menuSettings"/>
-
-    <item
-        android:id="@+id/menuReport"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/menuReport"/>    
-    
-</menu>
-~~~
-
-This will require a new String in the strings.xml file:
-
-~~~xml
-    <string name="menuReport">Report</string>
-~~~
-
-Run the app and when you press the menu hardware button and select 'settings', you should see the toast message appear.
+Run the app and when you press the menu button (or the overflow menu) and select 'Report', you should see the toast message appear.
