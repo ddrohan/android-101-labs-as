@@ -4,7 +4,13 @@ This is the current version of the <b>Donation</b> app:
 
 - [Donation.1.5.zip](../archives/Donation.1.5.zip)
 
-This version is a little misconfigured - we have a leftover package name 'com.example.donation' from the project generation wizard. This can be changed by editing the AndridManifext.xml file:
+To continue using this project we need to 'refactor' it to <b>Donation.2.0</b>. At the time of writing, Android Studio's refactoring features and tools are a bit iffy :-) so we'll need to manually copy our project.
+
+1. navigate to the folder where you have downloaded and unzipped <b>Donation.1.5</b>
+2. Rename (or copy if you wish) the folder to <b>Donation.2.0</b>
+3. rename the file <b>Donation.1.5.iml</b> to <b><i>Donation.2.0.iml</i></b>
+4. Edit this file and change any references to <b>Donation.1.5</b> to <b>Donation.2.0</b>
+5. 
 
 
 ~~~xml
