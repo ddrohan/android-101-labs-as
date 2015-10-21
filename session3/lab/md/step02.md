@@ -18,17 +18,17 @@ We have a menu resource called 'menu_donate.xml' in the res/menu folder. Modify 
 In Donate.java, change the onOptionsItemSelected method to look like this:
 ~~~java
   @Override
-  public boolean onOptionsItemSelected(MenuItem item)
-  {
-    switch (item.getItemId())
-    {
-      case R.id.menuReport:
-        Toast toast = Toast.makeText(this, "Report Selected", Toast.LENGTH_SHORT);
-        toast.show();
-        break;
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId())
+        {
+            case R.id.menuReport:
+                Toast toast = Toast.makeText(this, "Report Selected", Toast.LENGTH_SHORT);
+                toast.show();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
-    return true;
-  }
 ~~~
 Run the app and when you press the menu button (or the overflow menu) and select 'Report', you should see the toast message appear.
 
