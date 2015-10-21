@@ -42,3 +42,5 @@ So make sure your project structure looks like the above before continuing.
 
 Also, don't forget to change the <b>app_name</b> string resource in your strings.xml.
 
+You should 'Clean' your project at this stage "Build->Clean Project", and then Rebuild & finally run your app, to make sure everything is ok.
+
