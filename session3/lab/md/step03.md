@@ -14,6 +14,15 @@ You can choose all the defaults for this layout.
 
 ![](../img/lab3s302.png)
 
+'Morph' our layout from Linear to Relative, like so,
+
+![](../img/lab3s303.png)
+
+and build a layout similar to the following:
+
+
+![](../img/lab3s304.png)
+
 This is the layout file itself:
 
 ~~~xml
