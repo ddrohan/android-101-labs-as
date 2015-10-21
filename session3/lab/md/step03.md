@@ -107,17 +107,39 @@ Change Donation activity to load this view when 'Report' selected from menu:
       case R.id.menuReport : startActivity (new Intent(this, Report.class));
                              break;
     }
-    return true;
+   return super.onOptionsItemSelected(item);
   }
 ~~~
 
-All of this will not work until you add the activity specification to the AndroidManifest.xml file:
+Confirm that the activity specification has been added to the AndroidManifest.xml file:
 
 ~~~xml
+      <?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="app.activities.Report"
-            android:label="@string/donateTitle" >
+            android:name=".activities.Donate"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name=".activities.Report" >
+        </activity>
+    </application>
+
+</manifest>
+
 ~~~
 
 Try it all now - it should load.
