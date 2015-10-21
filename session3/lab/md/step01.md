@@ -15,17 +15,7 @@ To continue using this project we need to 'refactor' it to <b>Donation.2.0</b>. 
 7. Launch Android Studio and open up the <b>Donation.2.0</b> project
 
 
-
-~~~xml
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.donation"
-    android:versionCode="1"
-    android:versionName="1.0" >
-~~~
-
-Once you save this - it would regenerate the correct 'gen' files. Delete the old one as we no longer need it (com.example.donation)
-
-We should also take this opportunity to change the name of the 'donation' package to 'app.activities'. Android does not like packages with a single 'segment'.
+We should also take this opportunity to change the name of the 'ie.app' package to 'ie.app.activities', as we will be introducing other packages later on
 
 
 ![](../img/02.png)
