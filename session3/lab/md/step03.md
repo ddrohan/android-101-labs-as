@@ -142,6 +142,6 @@ Confirm that the activity specification has been added to the AndroidManifest.xm
 
 ~~~
 
-Try it all now - it should load.
+Try it all now - it should load (like below)
 
 ![](../img/lab3s306.png)
