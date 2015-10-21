@@ -10,7 +10,7 @@ To continue using this project we need to 'refactor' it to <b>Donation.2.0</b>. 
 2. Navigate to the folder where you downloaded and unzipped <b>Donation.1.5</b>
 3. Rename (or copy if you wish) the folder to <b>Donation.2.0</b>
 4. Rename the file <b>Donation.1.5.iml</b> to <b><i>Donation.2.0.iml</i></b>
-5. Edit this file and change any references to <b>Donation.1.5</b> to <b>Donation.2.0</b>
+5. Edit <b><i>Donation.2.0.iml</i></b> and change any references to <b>Donation.1.5</b> to <b>Donation.2.0</b>
 6. Navigate to the <b>.idea</b> folder (it might be a hidden folder) open the <b>.name</b> file and rename the project name to <b>Donation.2.0</b>
 7. Launch Android Studio and open up the <b>Donation.2.0</b> project
 
