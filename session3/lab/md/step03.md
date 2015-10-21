@@ -1,8 +1,14 @@
 #Reports Activity
 
-Design a new layout - called Report - to look something like this:
+Before we start to design a new activity, Add a string resource in res/values/strings.xml:
 
-![](../img/01.png)
+~~~xml
+<string name="reportTitle">Report</string>
+~~~
+
+Design a new layout called <b>activity_report</b>. Do this by locating the res/layout folder and selecting new->layout resource file:
+
+![](../img/lab3s301.png)
 
 This is the layout file itself:
 
