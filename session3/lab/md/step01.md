@@ -23,7 +23,20 @@ So create a new Package (in the 'main' folder)
 
 and drag in your <b>Donate.java</b> into this new package. You can delete the empty package (if Android Studio hasn't done it already)
 
+Do the same for the <b>ApplicationTest</b> class.
+
+Next, check that the import statement in Donate.java is as follows:
+~~~java
+import android.widget.Toast;
+
+import ie.app.R;
+
+public class Donate extends AppCompatActivity
+~~~
+
 ![](../img/lab3s102.png)
+
+
 
 So make sure your project structure looks like the above before continuing.
 
