@@ -61,8 +61,7 @@ and replace it with the following:
 ~~~java
 package ie.app.activities;
 
-import app.donation.R;
-import app.main.DonationApp;
+import ie.app.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
