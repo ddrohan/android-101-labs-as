@@ -61,11 +61,13 @@ and replace it with the following:
 ~~~java
 package ie.app.activities;
 
-import ie.app.R;
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.app.Activity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import ie.app.R;
 
 public class Report extends AppCompatActivity
 {
