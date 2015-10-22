@@ -59,14 +59,28 @@ We can now refactor our Donate & Report classes and <b>Remove</b> the menu infla
 
 So, both classes should look as follows:
 
-<b>Donate.java</b>
+<b>Donate</b>
 ~~~java
 
 ~~~
 
-<b>Report.java</b>
+<b>Report</b>
 ~~~java
+public class Report extends Base
+{
+    ListView listView;
 
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_report);
+
+        listView = (ListView) findViewById(R.id.reportList);
+        DonationAdapter adapter = new DonationAdapter(this,  donations);
+        listView.setAdapter(adapter);
+    }
+}
 ~~~
 
 Run your app once more, to confirm the changes and that your menu still works as it should.
