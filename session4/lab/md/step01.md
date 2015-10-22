@@ -107,3 +107,5 @@ Hint - it relates to class inheritance, and some refactoring that needs to be do
 Your project should now look as follows:
 
 ![](../img/lab4s101.png)
+
+Also, pay particular attention to the 'settings', 'report' and 'donate' methods - these will be triggered directly by our menu options via xml, the next step in the lab.
