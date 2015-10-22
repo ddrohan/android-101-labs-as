@@ -32,6 +32,7 @@
    * [Step 03](session4/lab/md/step03.md)
    * [Step 04](session4/lab/md/step04.md)
    * [Solution](session4/lab/md/solution.md)
+   * Step 05
 * [Lab 05: Donation 4.0 - Database/Application Support](lab_05.md)
    * [Objectives](session5/lab/md/objectives.md)
    * [Step 01](session5/lab/md/step01.md)
