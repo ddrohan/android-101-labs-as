@@ -3,9 +3,9 @@
 As with the previous labs, you can download the solution for [Donation.3.0](../archives/Donation.3.0.zip), or continue on with your own version.
 
 
-Your current project should looks as follows:
+Your current project (after renaming/copying) should looks as follows:
 
-![](../img/lab501.png)
+![](../img/lab5s101.png)
 
 In this lab, you are required to do the following:
 
