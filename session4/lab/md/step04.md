@@ -79,3 +79,4 @@ class DonationAdapter extends ArrayAdapter<Donation>
 
 If all goes well - then you should be able to make donations, and then see a list of them in the report activity.
 
+![](../img/lab4s401.png) ![](../img/lab4s402.png)
