@@ -108,4 +108,4 @@ Your project should now look as follows:
 
 ![](../img/lab4s101.png)
 
-Also, pay particular attention to the 'settings', 'report' and 'donate' methods - these will be triggered directly by our menu options via xml, the next step in the lab.
+Also, pay particular attention to the 'settings', 'report' and 'donate' methods - these will be triggered directly by our menu options via xml, which we'll look at in Step 05.
