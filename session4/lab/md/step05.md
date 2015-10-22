@@ -55,7 +55,7 @@ Firstly, edit your menu_donate.xml and ensure it now looks as follows:
 <b>note the added onClick attributes for each MenuItem, it directly corresponds to the method names in our Base class </b>
 
 
-We can now refactor our Donate & Report classes and <b>Remove</b> the menu event handling code in both classes.
+We can now refactor our Donate & Report classes and <b>Remove</b> the menu inflation and event handling code in both classes.
 
 So, both classes should look as follows:
 
