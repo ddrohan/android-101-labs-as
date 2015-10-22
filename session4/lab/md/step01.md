@@ -100,6 +100,10 @@ public class Base extends AppCompatActivity
 
 Notice our List of Donations in the Base class - we will use this list to display our Donations in the Report.
 
+There is still one error remaining, can you work out why, and more importantly, how to fix it?
+
+Hint - it relates to class inheritance, and some refactoring that needs to be done.
+
 Your project should now look as follows:
 
-![](../img/02.png)
+![](../img/lab4s101.png)
