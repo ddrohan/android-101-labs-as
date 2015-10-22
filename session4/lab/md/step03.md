@@ -31,11 +31,10 @@ This is a new layout - to be called 'row_donate.xml'. Place this in the 'layout'
         android:id="@+id/row_method"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/row_amount"
-        android:layout_alignBottom="@+id/row_amount"
         android:layout_marginLeft="106dp"
-        android:layout_toRightOf="@+id/row_amount"
-        android:text="@string/defaultMethod" />
+        android:text="@string/defaultMethod"
+        android:layout_alignTop="@+id/row_amount"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 ~~~
