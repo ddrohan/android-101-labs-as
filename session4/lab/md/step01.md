@@ -6,7 +6,7 @@ In order to keep our application design coherent, we now bring in an Base class 
 But before we do anything, it's probably a good idea to rename/copy or project to <b>Donation.3.0</b> like we did in the previous lab - so go ahead and do that now.
 
 
-First, create a new package called 'ie.app.models' and bring in this class here:
+Now, first, create a new package called 'ie.app.models' and bring in this class here:
 
 ~~~java
 package ie.app.models;
