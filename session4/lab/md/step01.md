@@ -5,7 +5,7 @@ In order to keep our application design coherent, we now bring in an Base class 
 First, create a new package called 'ie.app.models' and bring in this class here:
 
 ~~~java
-package app.models;
+package ie.app.models;
 
 public class Donation
 {
@@ -20,10 +20,10 @@ public class Donation
 }
 ~~~ 
 
-Next, Create a new class called 'Base' and add it to the 'app.activities' package:
+Next, Create a new class called 'Base' and add it to the 'ie.app.activities' package:
 
 ~~~java
-public class Base extends Activity
+public class Base extends AppCompatActivity
 {
   public final int       target       = 10000;
   public int             totalDonated = 0;
