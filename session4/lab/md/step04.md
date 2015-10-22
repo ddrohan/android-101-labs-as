@@ -3,18 +3,38 @@
 Finally, rework the Report class to remove the hard coded values - and use a different 'adapter'
 
 ~~~java
-public class Report extends Base {
-  private ListView listView;
+public class Report extends Base
+{
+    ListView listView;
 
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_report);
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_report);
 
-    listView = (ListView) findViewById(R.id.reportList);
-    DonationAdapter adapter = new DonationAdapter(this, donations);
-    listView.setAdapter(adapter);
-  }
+        listView = (ListView) findViewById(R.id.reportList);
+        DonationAdapter adapter = new DonationAdapter(this,  donations);
+        listView.setAdapter(adapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_donate, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case R.id.menuDonate : startActivity (new Intent(this, Donate.class));
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
 ~~~
 
