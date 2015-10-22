@@ -2,7 +2,7 @@
 
 We now rework Report to render the actual donations - held in the Base class list.
 
-First some layout additions. Include these new string in strings.xml
+First some layout additions. Include these new string resources in strings.xml
 
 ~~~
     <string name="defaultAmount">00</string>
