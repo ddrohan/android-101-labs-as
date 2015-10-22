@@ -13,7 +13,7 @@ When you navigate from the Donate activity to reports, there will be no menu ava
 
 Bring in a new menu item, 'Donate' - Donate should bring you back to the main Donate Screen.
 
-This is a very similar approach to Step 02, so revisit this step and see if you can end up with something like the following for the 'Report' Screen:
+This is a very similar approach to what you did in Step 02, so revisit this step and see if you can end up with something like the following for the 'Report' Screen:
 
 ![](../img/lab3s401.png)
 
