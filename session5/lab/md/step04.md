@@ -8,6 +8,7 @@ Before we complete this step, here's the code you need for the previous step.
   {
     totalDonated = 0;
     amountTotal.setText("$" + totalDonated);
+    donations.clear();
   }
 ~~~
 
