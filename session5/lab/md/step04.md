@@ -13,10 +13,10 @@ Before we complete this step, here's the code you need for the previous step.
 
 In order to keep out application design coherent, we now bring in an 'Application' object.
 
-Create a new package called 'app.main' and incorporate this class here:
+Create a new package called 'ie.app.main' and incorporate this class here:
 
 ~~~java
-package app.main;
+package ie.app.main;
 
 import android.app.Application;
 import android.util.Log;
