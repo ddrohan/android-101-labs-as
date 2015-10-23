@@ -4,9 +4,9 @@ As a final exercise, try and add some event handling to the Report Activity - i.
 
 Something like this:
 
-![](../img/04.png)
+![](../img/lab4s701.png)
 
-Project Solution:
+Project Solution (and Starter for the next lab):
 
-- [Donation.3.0](../archives/Donation.3.0.zip)
+- [Donation.4.0.Starter](../archives/Donation.4.0.Starter.zip)
 
