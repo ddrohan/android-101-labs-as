@@ -5,7 +5,7 @@ We now need to refactor the Base class (next Step) and move the donation related
 This is a revised version of DonationApp - which now manages a list of donations. It also centralises the 'makeDonation' event implementing it as a method. Replace your donation with this one:
 
 ~~~java
-package app.main;
+package ie.app.main;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,8 +31,7 @@ public class DonationApp extends Application
     }
     else
     {
-      Toast toast = Toast.makeText(this, "Target Exceeded!", Toast.LENGTH_SHORT);
-      toast.show();
+      Toast.makeText(this, "Target Exceeded!", Toast.LENGTH_SHORT).show();
     }
     return targetAchieved;
   }
