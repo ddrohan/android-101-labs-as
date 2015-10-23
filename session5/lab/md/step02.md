@@ -2,11 +2,11 @@
 
 First of all, confirm that the current Menu looks like this:
 
-![](../img/lab502.png)
+![](../img/lab5s201.png)
 
 but we want something like this:
 
-![](../img/lab503.png)
+![](../img/lab5s202.png)
 
 The first thing to do is add in a new resource in strings.xml
 
@@ -35,7 +35,7 @@ to ensure our app won't crash when the menu loads (and looks for a method 'reset
 
 Run the app again and confirm you get the following Menu :
 
-![](../img/lab503.png)
+![](../img/lab5s202.png)
 
 We can't implement this menu option fully yet, so for the moment, we'll just 'reset' the target amount back to zero (0) - Step 03.
 
