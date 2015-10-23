@@ -6,6 +6,14 @@ Something like this:
 
 ![](../img/lab4s701.png)
 
+You may find the following useful if you need to refactor your Donation model
+
+![](../img/lab4s702.png)
+
+and
+
+![](../img/lab4s703.png)
+
 Project Solution (and Starter for the next lab):
 
 - [Donation.4.0.Starter](../archives/Donation.4.0.Starter.zip)
