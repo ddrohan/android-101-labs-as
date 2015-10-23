@@ -1,6 +1,6 @@
 #Setup - Starter Code
 
-As with the previous labs, you can download the solution for [Donation.3.0](../archives/Donation.3.0.zip), or continue on with your own version.
+As with the previous labs, you can download the solution/starter code for [Donation.4.0.starter](../archives/Donation.4.0.Starter.zip), or continue on with your own version.
 
 
 Your current project (after renaming/copying) should looks as follows:
