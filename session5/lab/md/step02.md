@@ -25,7 +25,7 @@ and then the corresponding menu item in donate.xml
         android:onClick="reset"/> 
 ~~~
 
-It's probably worth removing the 'Settings' menu item at this stage too. Next, edit <b>Base.java</b> and add in the following method stub
+It's probably worth removing the 'Settings' menu item at this stage too, and its related method in the Base Class. Next, edit <b>Base.java</b> and add in the following method stub
 
 ~~~java
 public void reset(MenuItem item) {}
