@@ -41,7 +41,7 @@ Application objects need to be references in the AndroidManifest.xml - at the ve
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" 
-        android:name="app.main.DonationApp">
+        android:name="ie.app.main.DonationApp">
 ~~~
 
 Make sure the 'Donation App Started' appears in the logs to verify that it has actually been engaged correctly, when you launch the app.
