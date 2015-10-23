@@ -38,9 +38,10 @@ Application objects need to be references in the AndroidManifest.xml - at the ve
 ~~~xml
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" 
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
         android:name="ie.app.main.DonationApp">
 ~~~
 
