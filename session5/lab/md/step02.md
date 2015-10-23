@@ -8,7 +8,7 @@ but we want something like this:
 
 ![](../img/lab5s202.png)
 
-The first thing to do is add in a new resource in strings.xml
+The first thing to do is add in a new resource in strings.xml (or use Android Studio (Alt + Return) to fix the string resource error if you paste in the menu item directly)
 
 ~~~xml
  	<string name="menuReset">Reset</string>
