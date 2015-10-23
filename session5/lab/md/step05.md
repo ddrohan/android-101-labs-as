@@ -13,7 +13,7 @@ import java.util.List;
 import android.app.Application;
 import android.util.Log;
 import android.widget.Toast;
-import app.models.Donation;
+import ie.app.models.Donation;
 
 public class DonationApp extends Application
 {
