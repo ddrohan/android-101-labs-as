@@ -5,7 +5,7 @@ The Base activity can now be completely refactored to make use of the DonationAp
 This is our new Base class
 
 ~~~java
-package app.activities;
+package ie.app.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import app.donation.R;
-import app.main.DonationApp;
+import ie.app.R;
+import ie.app.main.DonationApp;
 
 public class Base extends Activity {
 
