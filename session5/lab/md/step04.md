@@ -28,7 +28,7 @@ public class DonationApp extends Application
   public void onCreate()
   {
     super.onCreate();
-    Log.v("Donation", "Donation App Started");
+    Log.v("Donate", "Donation App Started");
   }
 }
 ~~~
