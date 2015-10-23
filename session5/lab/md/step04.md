@@ -47,6 +47,6 @@ Application objects need to be references in the AndroidManifest.xml - at the ve
 
 Make sure the 'Donation App Started' appears in the logs to verify that it has actually been engaged correctly, when you launch the app.
 
-
+![](../img/lab5s401.png)
 
 
