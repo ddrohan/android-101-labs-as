@@ -2,7 +2,7 @@
 
 Once you import the necessary Database classes, this step is relatively straight forward - all you have to do is replace the method calls that manages the <b><i>donationList</i></b> with the respective <b><i>dbManager</i></b> calls.
 
-First thing to do is download the necessary database classes in the [database](../archives/database.zip) archive and add them to a new <i>ie.app.dbs</i> package in your project.
+First thing to do is download the necessary database classes in the [database](../archives/database.zip) archive and add them to a new <i>ie.app.database</i> package in your project.
 
 Take a few moments to investigate the classes and familarise yourself with the methods you'll be using.
 
