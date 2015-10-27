@@ -23,7 +23,9 @@ Select the "Pull a file from the Device" on the top right-hand-side of the windo
 
 ![](../img/lab5s905.png)
 
+and save your database file to a local folder.
 
+Next download and install [SqL](http://sqllightbrowser.org)
 
 ![](../img/lab5s906.png)
 
