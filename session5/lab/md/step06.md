@@ -1,6 +1,6 @@
 #Base Class Refactoring
  
-The Base activity can now be completely refactored to make use of the DonationApp object.
+The Base activity can now be completely refactored to make use of the DonationApp object. You <b>WILL</b> have errors at the end of this step, due to referencing our (as yet missing) database classes - but we'll fix those in the next few steps. 
 
 This is our new Base class
 
