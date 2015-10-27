@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * [Lab 06: Donation 5.0 - REST/Cloud Support](lab_06.md)
-       * Objectives
+       * [Objectives](session6/lab/md/objectives.md)
 * [Lab 01: Android Studio & 'Hello World'](lab_01.md)
    * [Objectives](session1/lab/md/objectives.md)
    * [Step 01](session1/lab/md/step01.md)
