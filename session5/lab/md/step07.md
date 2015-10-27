@@ -8,6 +8,46 @@ Take a few moments to investigate the classes and familarise yourself with the m
 
 There are a few classes you'll need to modify to add database support to your project, but initially, you need to create an instance of <b><i>DBManager</i></b> in <b>Base.java</b> and both open/close the database when necessary, so refer to the Lecture Material to complete this.
 
+Next, update your <b>DonationApp</b> class with the following:
+
+~~~java
+public class DonationApp extends Application
+{
+    public final int       target       = 10000;
+    public int             totalDonated = 0;
+    //public List <Donation> donations    = new ArrayList<Donation>();
+    public DBManager dbManager;
+
+
+    public boolean newDonation(Donation donation)
+    {
+        boolean targetAchieved = totalDonated > target;
+        if (!targetAchieved)
+        {
+            dbManager.add(donation);
+            totalDonated += donation.amount;
+        }
+        else
+        {
+            Toast.makeText(this, "Target Exceeded!", Toast.LENGTH_SHORT).show();
+        }
+        return targetAchieved;
+    }
+
+    @Override
+    public void onCreate()
+    {
+        super.onCreate();
+        Log.v("Donate", "Donation App Started");
+        dbManager = new DBManager(this);
+        Log.v("Donate", "Database Created");
+
+    }
+}
+~~~
+
+<b>Note the references to a new <i>dbManager</i> object.
+
 Also, our Donation class needs a slight refactor, so replace the current class with this one.
 
 ~~~java
