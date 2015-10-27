@@ -19,7 +19,11 @@ Then, scroll/find your database (donations.db) in the ie.app.databases folder:
 
 ![](../img/lab5s904.png)
 
+Select the "Pull a file from the Device" on the top right-hand-side of the window:
+
 ![](../img/lab5s905.png)
+
+
 
 ![](../img/lab5s906.png)
 
