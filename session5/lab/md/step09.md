@@ -25,11 +25,15 @@ Select the "Pull a file from the Device" on the top right-hand-side of the windo
 
 and save your database file to a local folder.
 
-Next download and install [SqL](http://sqllightbrowser.org)
+Next download and install [sqlitebrowser](http://sqlitebrowser.org) which will allow us to view our database graphically.
 
 ![](../img/lab5s906.png)
 
+Launch your sqlitebrowser app/program to get this window:
+
 ![](../img/lab5s907.png)
+
+and then 'Open Database' selecting the database you pulled from the device.
 
 ![](../img/lab5s908.png)
 
