@@ -1,9 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Lab 06: Donation 5.0 - REST/Cloud Support](lab_06.md)
-       * [Objectives](session6/lab/md/objectives.md)
-       * [Solution](session6/lab/md/solution.md)
 * [Lab 01: Android Studio & 'Hello World'](lab_01.md)
    * [Objectives](session1/lab/md/objectives.md)
    * [Step 01](session1/lab/md/step01.md)
@@ -48,4 +45,7 @@
    * [Step 08](session5/lab/md/step08.md)
    * [Step 09](session5/lab/md/step09.md)
    * [Solution](session5/lab/md/solution.md)
+* [Lab 06: Donation 5.0 - REST/Cloud Support](lab_06.md)
+       * [Objectives](session6/lab/md/objectives.md)
+       * [Solution](session6/lab/md/solution.md)
 
