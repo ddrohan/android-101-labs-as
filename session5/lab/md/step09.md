@@ -11,11 +11,11 @@ Tools->Android->Android Device Monitor (as below)
 
 ![](../img/lab5s902.png)
 
-Next, you need to navigate to the data/data folder within the application package (in our case ie.app) like so:
+Next, you need to navigate to the data/data folder within the application package on the device (in our case ie.app) like so:
 
 ![](../img/lab5s903.png)
 
-
+Then, scroll/find your database (donations.db) in the ie.app.databases folder:
 
 ![](../img/lab5s904.png)
 
