@@ -33,9 +33,13 @@ Launch your sqlitebrowser app/program to get this window:
 
 ![](../img/lab5s907.png)
 
-and then 'Open Database' selecting the database you pulled from the device.
+and then 'Open Database' selecting the database you pulled from the device. If everything goes to plan, you should be able to view your database table(s) and their content, as well as the SQL that created the tables.
+
+Below, we can see a donations table with 3 donations
 
 ![](../img/lab5s908.png)
+
+and the corresponding entries in our Android App.
 
 ![](../img/lab5s909.png)
 
