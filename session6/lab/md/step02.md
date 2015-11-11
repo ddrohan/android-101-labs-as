@@ -8,3 +8,12 @@ So go ahead and download the package [here](../archives/restapi.zip).
 
 The extracted archive consists of the following:
 
+* ddd
+* xxx
+
+
+![](../img/lab6s201.png)
+
+You will need to add these classes to your Android Studio Project as follows:
+
+1. 
