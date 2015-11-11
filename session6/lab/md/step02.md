@@ -38,3 +38,5 @@ so your dependencies in your build file looks something like this
 
 ![](../img/lab6s203.png)
 
+Rebuild your project again and you should now be error free!
+
