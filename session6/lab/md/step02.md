@@ -1,4 +1,4 @@
-# Adding REST Support
+# Adding REST Support & Project Clean Up
 
 The main purpose of this version of Donation is to connect to a Web Service ([our sister site](http://donationweb-4-0.herokuapp.com)) and be able to retrieve, insert and delete Donations.
 
