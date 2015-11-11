@@ -18,4 +18,10 @@ You will need to add these classes to your Android Studio Project and the simple
 
 ![](../img/lab6s202.png)
 
-Now, you'll have a number of errors, so first thing to do is add <b> Googles Gson's</b> dependency to our project
+Now, if you Rebuild the project
+
+Build->Rebuild Project
+
+you'll have a number of errors relating to [Googles Gson](https://sites.google.com/site/gson/gson-user-guide), so first thing to do is add <b> Googles Gson's</b> dependency to our project:
+
+1. Open 
