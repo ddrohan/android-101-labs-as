@@ -29,12 +29,12 @@ Build->Rebuild Project
 you'll have a number of errors relating to [Googles Gson](https://sites.google.com/site/gson/gson-user-guide), so first thing to do is add <b> Googles Gson's</b> dependency to our project:
 
 
-- Open your 'build.gradle' file for <b>app</b>, <b>NOT THE PROJECT!</b>
+Open your 'build.gradle' file for <b>app</b>, <b>NOT THE PROJECT!</b>
  
 
 ![](../img/lab6s203.png)
 
-- Add the Gson dependency
+Add the Gson dependency
 
 ~~~xml
 compile 'com.google.code.gson:gson:2.2.3'
