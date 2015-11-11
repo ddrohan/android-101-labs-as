@@ -59,3 +59,15 @@ private class GetAllTask extends AsyncTask<String, Void, List<Donation>> {
         }
     }
 ~~~
+
+To actually invoke this Task, add the following method 
+
+~~~java
+@Override
+    public void onResume() {
+        super.onResume();
+        new GetAllTask(this).execute("/donations");
+    }
+~~~
+
+Once 
