@@ -44,7 +44,12 @@ The next thing we need to do is remove/delete our database classes and reintrodu
 
 So, 
 
-* first, just delete the whole <b>ie.app.db</b> package (don't worry about the errors, we'll fix those soon)
-* next, 
+* first, just delete the whole <b>ie.app.database</b> package (don't worry about the errors, we'll fix those soon)
+* next, reintroduce our donations list into the DonationApp class
+~~~java
+public List <Donation> donations    = new ArrayList<Donation>();
+~~~
+* finally, remove all references to <b>dbManager</b> in the project and replace with our <b>donations</b> or <b>app.donations</b> (depending on the context).
+
 
 
