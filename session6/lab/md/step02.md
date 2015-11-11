@@ -36,7 +36,7 @@ compile 'com.google.code.gson:gson:2.2.3'
 
 so your dependencies in your build file looks something like this
 
-![](../img/lab6s203.png)
+![](../img/lab6s204.png)
 
 Rebuild your project again and you should now be error free!
 
