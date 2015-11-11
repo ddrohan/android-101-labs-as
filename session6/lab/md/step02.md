@@ -11,6 +11,8 @@ The extracted archive consists of the following:
 * DonationApi.java
 * Rest.java
  
+(viewed in Finder)
+
 
 ![](../img/lab6s201.png)
  
