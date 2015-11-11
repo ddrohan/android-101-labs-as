@@ -30,7 +30,7 @@ you'll have a number of errors relating to [Googles Gson](https://sites.google.c
 
 
 - Open your 'build.gradle' file for <b>app</b>, <b>NOT THE PROJECT!</b>
-
+ 
 
 ![](../img/lab6s203.png)
 
