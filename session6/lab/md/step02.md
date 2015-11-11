@@ -10,10 +10,12 @@ The extracted archive consists of the following:
 
 * DonationApi.java
 * Rest.java
-
+ 
 
 ![](../img/lab6s201.png)
-
+ 
+  
+  
 You will need to add these classes to your Android Studio Project and the simplest way is to copy the api folder in Windows Explorer or Finder and paste directly into your <b>ie.app</b> package in your Android Studio Project. Once completed, your project should look something like this:
 
 ![](../img/lab6s202.png)
