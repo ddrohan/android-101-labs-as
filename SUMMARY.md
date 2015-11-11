@@ -48,6 +48,6 @@
 * [Lab 06: Donation 5.0 - REST/Cloud Support](lab_06.md)
    * [Objectives](session6/lab/md/objectives.md)
    * [Step 01](session6/lab/md/step01.md)
-   * [Solution](session6/lab/md/solution.md)
    * Step 02
+   * [Solution](session6/lab/md/solution.md)
 
