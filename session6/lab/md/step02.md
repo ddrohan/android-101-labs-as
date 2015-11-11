@@ -40,3 +40,11 @@ so your dependencies in your build file looks something like this
 
 Rebuild your project again and you should now be error free!
 
+The next thing we need to do is remove/delete our database classes and reintroduce a simple list back into our DonationApp Application class.
+
+So, 
+
+* first, just delete the whole <b>ie.app.db</b> package (don't worry about the errors, we'll fix those soon)
+* next, 
+
+
