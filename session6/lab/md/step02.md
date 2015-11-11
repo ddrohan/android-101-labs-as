@@ -25,3 +25,5 @@ Build->Rebuild Project
 you'll have a number of errors relating to [Googles Gson](https://sites.google.com/site/gson/gson-user-guide), so first thing to do is add <b> Googles Gson's</b> dependency to our project:
 
 1. Open 
+
+![](../img/lab6s203.png)
