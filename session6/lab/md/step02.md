@@ -57,6 +57,7 @@ public List <Donation> donations    = new ArrayList<Donation>();
 ~~~
 * finally, remove all references to <b>dbManager</b> in the project and replace with our <b>donations</b> or <b>app.donations</b> (depending on the context).
 
+
 We've actually taken a step back as regards functionality, as we're not adding donations to our list directly - the list is only to be used to hold the result of our REST calls.
 
 So let's go ahead and start using our REST classes for data retrieval.
