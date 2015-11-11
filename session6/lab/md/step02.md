@@ -27,3 +27,14 @@ you'll have a number of errors relating to [Googles Gson](https://sites.google.c
 1. Open 
 
 ![](../img/lab6s203.png)
+
+2. Add the Gson dependency
+
+~~~xml
+compile 'com.google.code.gson:gson:2.2.3'
+~~~
+
+so your dependencies in your build file looks something like this
+
+![](../img/lab6s203.png)
+
