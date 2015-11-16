@@ -2,5 +2,7 @@
 
 You've probably noticed that even though we can 'refresh' our report list, all we see is the refresh progress spin indefinitely - we've no way to stop it except closing the activity.
 
+![](../img/lab6s701.png)
+
 The reason being, we have no backend implementation of the gesture to actually refresh the data in the list - so let's do that.
 
