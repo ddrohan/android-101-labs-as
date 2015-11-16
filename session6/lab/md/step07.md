@@ -6,3 +6,5 @@ You've probably noticed that even though we can 'refresh' our report list, all w
 
 The reason being, we have no backend implementation of the gesture to actually refresh the data in the list - so let's do that.
 
+
+
