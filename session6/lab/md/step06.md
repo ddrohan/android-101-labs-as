@@ -48,4 +48,8 @@ Here's the updated custom layout you should have (or something similar)
 </LinearLayout>
 ~~~
 
+Now, if you run the app again, and select the Report Menu Option, you'll actually see the list that has been retrieved from the server - with no extra coding - how is this possible?
 
+![](../img/lab6s601.png)
+
+Experiment with the Swipe Refresh gesture and see what happens?
