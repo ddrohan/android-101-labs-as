@@ -86,6 +86,7 @@ replace the existing onCreate() method with this one
 
 Run your app again and confirm that the refresh is working correctly, by adding or deleting a donation on the Web and then refreshing your Report Screen.
 
-<b>Note : as everyone and anyone :-) can add and/or delete donations via the web app, I'd encourage you to keep the list of donations to 4 or 5 while you're testing</b>
+
+## <b>Note : as everyone and anyone :-) can add and/or delete donations via the web app, I'd encourage you to keep the list of donations to 4 or 5 while you're testing</b>
 
 
