@@ -1,4 +1,4 @@
-# Activity Donate - Getting the Running Total
+# Donate Activity - Getting the Running Total
 
 When our Donation App initially starts we want to ensure that the current total (if any) is set correctly and corresponds to the donations listed on our sister web app.
 
