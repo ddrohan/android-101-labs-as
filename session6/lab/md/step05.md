@@ -1,8 +1,8 @@
-# Report Activity - Displaying our Donations
+# Report Activity - Refactoring our Layouts
 
-Now that we can see our Total Donations, let's display then in our Report Activity.
+Now that we can see our Total Donations, let's display them in our Report Activity.
 
-We've a few modifications to make on our layout, and we're going to introduce Androids [SwipereRreshLayout](http://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html) feature so replace your current report layout with this one
+We've a few modifications to make on our layouts first, and we're going to introduce Androids [SwipereRreshLayout](http://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html) feature so replace your current report layout with this one
 
 ~~~xml
 <?xml version="1.0" encoding="utf-8"?>
