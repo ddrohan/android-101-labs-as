@@ -35,3 +35,5 @@ public class Donation
 }
 ~~~
 
+There'll be a few small errors to fix, but once you do, run your app again and you should get something like the following:
+
