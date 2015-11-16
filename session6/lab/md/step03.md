@@ -70,4 +70,5 @@ To actually invoke this Task, add the following method
     }
 ~~~
 
-Once 
+If you try and run your app, it'll connect to the web service and return our list from the sister site - but it will then crash. Can you work out why this is happening from the Logs, and how to fix it?
+
