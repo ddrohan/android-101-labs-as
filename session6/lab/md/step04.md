@@ -1,8 +1,8 @@
 # Refactoring our Donation Model
 
-If you've paid particular attention to the JSON string that was returned in the previous request, you'll see that there are 4 attributes, of different types - which don't match our current <b>Donation</b> class.
+If you've payed particular attention to the JSON string that was returned in the previous request, you'll see that there are 4 attributes, of different types - which don't match our current <b>Donation</b> class.
 
-This is why your app crashed - we were trying to convert our json string into a list of objects that are not the same.
+This is why the app crashed - we were trying to convert our json string into a list of objects that are not the same.
 
 So go ahead and replace your current Donation Model with this one
 
