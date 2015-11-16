@@ -82,6 +82,8 @@ We've a few modifications to make on our layout, and we're going to introduce An
 </RelativeLayout>
 ~~~
 
-We also need to modify our custom row, so the user can see the number of 'upvotes' for each donation, so go ahead and refactor your row_donate.xml by introducing a new TextView Resource to display the 'upvotes' like so
+We also need to modify our custom row, so the user can see the number of 'upvotes' for each donation, so go ahead and refactor your row_donate.xml by introducing a new TextView Resource to display the 'upvotes'. We're also going to be able to delete a donation via a 'delete' button, so while you're refactoring the custom row, have a go at that too (like so)
+
+
 
 
