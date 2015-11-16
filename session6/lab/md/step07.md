@@ -65,5 +65,27 @@ SwipeRefreshLayout mSwipeRefreshLayout;
 replace the existing onCreate() method with this one
 
 ~~~java
+@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_report);
 
+        listView = (ListView) findViewById(R.id.reportList);
+        mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.report_swipe_refresh_layout);
+
+        new GetAllTask(this).execute("/donations");
+
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                new GetAllTask(Report.this).execute("/donations");
+            }
+        });
+    }
 ~~~
+
+Run your app again and confirm that the refresh is working correctly, by adding or deleting a donation on the Web.
+
+<b>Note : as everyone and anyone :-) can add and/or delete donations via the web app, I'd encourage you to keep the list of donations to 4 or 5 while you're testing</b>
+
+
