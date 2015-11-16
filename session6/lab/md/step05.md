@@ -87,3 +87,5 @@ We also need to modify our custom row, so the user can see the number of 'upvote
 
 ![](../img/lab6s501.png)
 
+(And don't worry, the solution is on the next step, but have a go first)
+
