@@ -297,5 +297,5 @@ public void donateButtonPressed (View view)
     }
 ~~~
 
-They add to our local list of Donations, and reset a simple field - we'll implement the reset feature in the final step so now, the first thing to do is look at how we can refactor the donateButtonPressed() method to add a donation to our remote list and then update our total.
+They add to our local list of Donations, and reset a simple field - we'll implement the reset feature in the final step so now, the first thing to do, is look at how we can refactor the donateButtonPressed() method to add a donation to our remote list and then update our total.
 
