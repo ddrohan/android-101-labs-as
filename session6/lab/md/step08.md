@@ -100,7 +100,48 @@ Fix any errors, and see can you add an <b>OnItemClickListener</b> to our Report 
 To implement the delete feature, we need to implement an <b>OnClickListener</b> interface so go ahead and do that and bring in this AsyncTask to begin with.
 
 ~~~java
+private class DeleteTask extends AsyncTask<String, Void, String> {
 
+        protected ProgressDialog dialog;
+        protected Context context;
+
+        public DeleteTask(Context context) {
+            this.context = context;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            this.dialog = new ProgressDialog(context, 1);
+            this.dialog.setMessage("Deleting Donation");
+            this.dialog.show();
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+
+            try {
+                return (String) DonationApi.delete((String) params[0], (String) params[1]);
+            } catch (Exception e) {
+                Log.v("donate", "ERROR : " + e);
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+
+            String s = result;
+            Log.v("donate", "DELETE REQUEST : " + s);
+
+            new GetAllTask(Report.this).execute("/donations");
+
+            if (dialog.isShowing())
+                dialog.dismiss();
+        }
+    }
 ~~~
 
 and also this method
@@ -129,3 +170,8 @@ public void onDonationDelete(final Donation donation) {
         alert.show();
     }
 ~~~
+
+Now, see can you call the above <b>onDonationDelete()</b> in your <b>onClick()</b> method so you get something like this when you click on the delete button
+
+
+![](../img/lab6s802.png)
