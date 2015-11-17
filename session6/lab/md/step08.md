@@ -93,7 +93,7 @@ private class GetTask extends AsyncTask<String, Void, Donation> {
     }
 ~~~
 
-Fix any errors, and see can you add an <b>OnItemClickListener</b> to our Report class to display the Toast (below) when a row is selected.
+Fix any errors, and see can you add an <b>OnItemClickListener</b> to our Report class to display the Toast (below) when a row is selected, by invoking the above AsyncTask.
 
 ![](../img/lab6s801.png)
 
