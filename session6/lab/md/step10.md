@@ -61,3 +61,7 @@ private class ResetTask extends AsyncTask<Object, Void, String> {
 ~~~
 
 There's really only one line of code which needs to be added to the reset() method so see if you can work out what it is and be able to 'reset' (delete) all the Donations on the Server.
+
+If you get this all working, you'll notice there's a small bug in the app that allows the user to still view the Report Screen, even after we called the reset menu option.
+
+See can you fix this bug and also add in a feature to ask the user if they're sure they want to reset all the donations (similar to the delete a Donation feature on the Report Screen).
