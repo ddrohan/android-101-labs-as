@@ -55,4 +55,5 @@
    * [Step 06](session6/lab/md/step06.md)
    * [Step 07](session6/lab/md/step07.md)
    * [Solution](session6/lab/md/solution.md)
+   * Step 08
 
