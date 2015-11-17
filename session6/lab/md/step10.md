@@ -12,6 +12,52 @@ Let's finish off our Donation 5.0 App by implementing the 'Reset' Menu option.
 First thing to do is bring in this AsyncTask
 
 ~~~java
+private class ResetTask extends AsyncTask<Object, Void, String> {
+
+        protected ProgressDialog 		dialog;
+        protected Context 				context;
+
+        public ResetTask(Context context)
+        {
+            this.context = context;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            this.dialog = new ProgressDialog(context, 1);
+            this.dialog.setMessage("Deleting Donations....");
+            this.dialog.show();
+        }
+
+        @Override
+        protected String doInBackground(Object... params) {
+
+            String res = null;
+            try {
+                    res = DonationApi.deleteAll((String)params[0]);
+            }
+
+            catch(Exception e)
+            {
+                Log.v("donate"," RESET ERROR : " + e);
+                e.printStackTrace();
+            }
+            return res;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+
+            app.totalDonated = 0;
+            progressBar.setProgress(app.totalDonated);
+            amountTotal.setText("$" + app.totalDonated);
+
+            if (dialog.isShowing())
+                dialog.dismiss();
+        }
+    }
 
 ~~~
 
