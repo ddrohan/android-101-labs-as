@@ -49,5 +49,48 @@ While we working on the Report Activity, let's add some event handling so we can
 Introduce this AsyncTask into the Report Activity
 
 ~~~java
+private class GetTask extends AsyncTask<String, Void, Donation> {
 
+        protected ProgressDialog dialog;
+        protected Context context;
+
+        public GetTask(Context context) {
+            this.context = context;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            this.dialog = new ProgressDialog(context, 1);
+            this.dialog.setMessage("Retrieving Donation Details");
+            this.dialog.show();
+        }
+
+        @Override
+        protected Donation doInBackground(String... params) {
+
+            try {
+                return (Donation) DonationApi.get((String) params[0], (String) params[1]);
+            } catch (Exception e) {
+                Log.v("donate", "ERROR : " + e);
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Donation result) {
+            super.onPostExecute(result);
+
+            Donation donation = result;
+
+            Toast.makeText(Report.this, "Donation Data [ " + donation.upvotes + "]\n " +
+                    "With ID of [" + donation._id + "]", Toast.LENGTH_LONG).show();
+
+            if (dialog.isShowing())
+                dialog.dismiss();
+        }
+    }
 ~~~
+
+Fix the errors, 
