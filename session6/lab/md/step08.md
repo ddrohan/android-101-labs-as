@@ -97,3 +97,8 @@ Fix any errors, and see can you add an <b>OnItemClickListener</b> to our Report 
 
 ![](../img/lab6s801.png)
 
+To implement the delete feature, we need to implement an <b>OnClickListener</b> interface so go ahead and do that and bring in this AsyncTask to begin with.
+
+~~~java
+
+~~~
