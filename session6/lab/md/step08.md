@@ -93,4 +93,4 @@ private class GetTask extends AsyncTask<String, Void, Donation> {
     }
 ~~~
 
-Fix the errors, 
+Fix any errors, 
