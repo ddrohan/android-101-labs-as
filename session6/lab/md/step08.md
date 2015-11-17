@@ -102,3 +102,9 @@ To implement the delete feature, we need to implement an <b>OnClickListener</b> 
 ~~~java
 
 ~~~
+
+and also this method
+
+~~~java
+
+~~~
