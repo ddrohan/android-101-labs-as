@@ -299,4 +299,50 @@ public void donateButtonPressed (View view)
 
 They add to our local list of Donations, and reset a simple field - we'll implement the reset feature in the final step so now, the first thing to do, is look at how we can refactor the donateButtonPressed() method to add a donation to our remote list and then update our total.
 
-We're going to need another AsyncTask 
+We're going to need another AsyncTask for this so see if you can complete this 'InsertTask' based on the previous Tasks you've implemented
+
+~~~java
+private class InsertTask extends AsyncTask<Object, Void, String> {
+
+        protected ProgressDialog dialog;
+        protected Context context;
+
+        public InsertTask(Context context)
+        {
+            this.context = context;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            this.dialog = new ProgressDialog(context, 1);
+            this.dialog.setMessage("Saving Donation....");
+            this.dialog.show();
+        }
+
+        @Override
+        protected String doInBackground(Object... params) {
+
+            String res = null;
+            try {
+                Log.v("donate", "Donation App Inserting");
+                
+            }
+
+            catch(Exception e)
+            {
+                Log.v("donate","ERROR : " + e);
+                e.printStackTrace();
+            }
+            return res;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+
+           
+        }
+    }
+
+~~~
