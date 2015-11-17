@@ -267,3 +267,4 @@ public class Report extends Base implements OnItemClickListener, OnClickListener
 
 Now, let's look at how we can add a new Donation and 'insert' it into the remote list of Donations, maintained on the Server.
 
+Open your <b>Donate.java</b> Activity
