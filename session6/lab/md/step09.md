@@ -1,6 +1,6 @@
 # Donate Activity - Add a Donation
 
-Here's the complete <b>Report.java</b> activity before we complete our final step in this lab
+Here's the complete <b>Report.java</b> activity before we complete our penultimate step in this lab
 
 ~~~java
 package ie.app.activities;
@@ -267,4 +267,35 @@ public class Report extends Base implements OnItemClickListener, OnClickListener
 
 Now, let's look at how we can add a new Donation and 'insert' it into the remote list of Donations, maintained on the Server.
 
-Open your <b>Donate.java</b> Activity
+Open your <b>Donate.java</b> Activity and have a look at the current implementations of donateButtonPressed() & reset()
+
+~~~java
+public void donateButtonPressed (View view)
+    {
+        String method = paymentMethod.getCheckedRadioButtonId() == R.id.PayPal ? "PayPal" : "Direct";
+        int donatedAmount =  amountPicker.getValue();
+        if (donatedAmount == 0)
+        {
+            String text = amountText.getText().toString();
+            if (!text.equals(""))
+                donatedAmount = Integer.parseInt(text);
+        }
+        if (donatedAmount > 0)
+        {
+            app.newDonation(new Donation(donatedAmount, method, 0));
+            progressBar.setProgress(app.totalDonated);
+            String totalDonatedStr = "$" + app.totalDonated;
+            amountTotal.setText(totalDonatedStr);
+        }
+    }
+
+    @Override
+    public void reset(MenuItem item)
+    {
+        app.totalDonated = 0;
+        amountTotal.setText("$" + app.totalDonated);
+    }
+~~~
+
+They add to our local list of Donations, and reset a simple field - we'll implement the reset feature in the final step so now, the first thing to do is look at how we can refactor the donateButtonPressed() method to add a donation to our remote list and then update our total.
+
