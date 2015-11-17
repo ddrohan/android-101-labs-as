@@ -344,5 +344,7 @@ private class InsertTask extends AsyncTask<Object, Void, String> {
            
         }
     }
-
 ~~~
+
+And referring to the lecture material, complete the donateButtonPressed() method that will invoke the above Task.
+
