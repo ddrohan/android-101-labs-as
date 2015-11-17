@@ -58,6 +58,6 @@ private class ResetTask extends AsyncTask<Object, Void, String> {
                 dialog.dismiss();
         }
     }
-
 ~~~
 
+There's really only one line of code which needs to be added to the reset() method so see if you can work out what it is and be able to 'reset' (delete) all the Donations on the Server.
