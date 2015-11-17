@@ -66,4 +66,4 @@ If you get this all working, you'll notice there's a small bug in the app that a
 
 See can you fix this bug and also add in a feature to ask the user if they're sure they want to reset all the donations (similar to the delete a Donation feature on the Report Screen) like so
 
-
+![](../img/lab6s1001.png)
