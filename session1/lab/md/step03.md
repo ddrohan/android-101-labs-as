@@ -8,7 +8,7 @@ If you've deleted your HelloWorld Project, launch Android Studio (if it's not al
 
 If you haven't deleted the project, you can just continue on.
 
-Name your package 'ie.wit' (or accept the default again). Accept all the defaults, and it's recommended you select <b>Android 5.0</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your Virtual Device (if you haven't done so already).
+Name your package 'ie.wit' (like you did before). Choose an Empty Activity again and rename as before. It's recommended you select <b>Android 5.0</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your Virtual Device (if you haven't done so already).
 
 Edit your "strings.xml" file (in your res folder) and add the following "resources" - be careful if you have created an app which contains a 'menu' folder, this also includes associated resources, so don't overwrite those resources, just add our ones at the end.
 
@@ -18,11 +18,10 @@ Edit your "strings.xml" file (in your res folder) and add the following "resourc
     <string name="greeting_text">Hello from Android!</string>
 ~~~
 
-Your completed strings.xml should look like this
+Your completed strings.xml (without menus) should look like this
 ~~~xml
 <resources>
     <string name="app_name">HelloWorld</string>
-    <string name="action_settings">Settings</string>
     <string name="window_text">Press the button below to receive a friendly greeting from Android.</string>
     <string name="button_label">Show Greeting</string>
     <string name="greeting_text">Hello from Android!</string>
@@ -34,7 +33,7 @@ If you choose "open editor you can see the graphical representation of the Strin
 ![](../img/lab02.png)
 
 
-Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> folder</i></u> and replace your <b>TextView</b> with the following
+Now, edit your <b>"activity_hello_world.xml"</b> <u><i>in your <i>layout</i> folder</i></u> and replace your <b>TextView</b> with the following - make sure your in 'Text' view and not 'Design' view.
 
 ~~~xml
 <TextView
@@ -63,7 +62,7 @@ This will give you the following layout:
 
 Once again, it's worth running the app at this point to confirm everything is displayed the way we want it. If you click the button, your app will probably crash - we don't have our <b>showGreeting()</b> method implemented yet.
 
-The last thing we need to do is add in our event handling code so that a short message is displayed when the user presses the 'Show Greeting' button.
+So, the last thing we need to do is add in our event handling code so that a short message is displayed when the user presses the 'Show Greeting' button.
 
 Firstly, open up the "HelloWorldActivity.java" source file and add the following method
 
@@ -71,10 +70,11 @@ Firstly, open up the "HelloWorldActivity.java" source file and add the following
 public void showGreeting(View v) {
         // TODO Auto-generated method stub
         String greetingText = getString(R.string.greeting_text);
-        Toast tempMessage = Toast.makeText(this, greetingText, Toast.LENGTH_LONG);
-        tempMessage.show();
+        Toast.makeText(this, greetingText, Toast.LENGTH_LONG).show();
     }
 ~~~
+
+You'll get a few compiler errors dure to missing imports, so try and fix those.
 
 Note that we have no need for some kind of Listener interface (ala swing development) - our event handling is taken care of via the 'onClick' attribute in our xml layout, here's what your completed Activity class should look like.
 
@@ -82,13 +82,8 @@ Note that we have no need for some kind of Listener interface (ala swing develop
 package ie.wit.helloworld;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Toast;
 
 public class HelloWorldActivity extends AppCompatActivity {
@@ -97,43 +92,9 @@ public class HelloWorldActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_hello_world, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     public void showGreeting(View v) {
-
         String greetingText = getString(R.string.greeting_text);
         Toast.makeText(this, greetingText, Toast.LENGTH_LONG).show();
     }
