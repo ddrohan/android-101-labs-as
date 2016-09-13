@@ -74,7 +74,7 @@ public void showGreeting(View v) {
     }
 ~~~
 
-You'll get a few compiler errors dure to missing imports, so try and fix those.
+You'll get a few compiler errors due to missing imports, so try and fix those.
 
 Note that we have no need for some kind of Listener interface (ala swing development) - our event handling is taken care of via the 'onClick' attribute in our xml layout, here's what your completed Activity class should look like.
 
