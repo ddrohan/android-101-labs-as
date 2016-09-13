@@ -33,7 +33,7 @@ If you choose "open editor you can see the graphical representation of the Strin
 ![](../img/lab02.png)
 
 
-Now, edit your <b>"activity_hello_world.xml"</b> <u><i>in your <i>**layout**</i> folder</u> and replace your <b>TextView</b> with the following - make sure your in 'Text' view and not 'Design' view.
+Now, edit your <b>"activity_hello_world.xml"</b> <u><i>in your <i>**layout**</i> folder</u> and replace your <b>TextView</b> with the following - make sure your in 'Text' view and not 'Design' view window.
 
 ~~~xml
 <TextView
