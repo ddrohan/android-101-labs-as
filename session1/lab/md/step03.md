@@ -100,7 +100,7 @@ public class HelloWorldActivity extends AppCompatActivity {
     }
 }
 
-So when you run your app again you should see something like this when you click the 'Show greeting' button.
+So when you run your app again you should see something like this when you click the 'Show Greeting' button.
 
 ![](../img/lab04.png)
 
