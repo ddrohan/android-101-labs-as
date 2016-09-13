@@ -14,7 +14,7 @@ Select the Platform(s) you want your app to run on - we'll just stick with Phone
 
 ![](../img/new02.png)
 
-You should choose a Blank Activity as your activity type on the next screen
+You should choose an Empty Activity as your activity type on the next screen
 
 ![](../img/new03.png)
 
