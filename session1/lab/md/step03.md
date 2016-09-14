@@ -99,11 +99,10 @@ public class HelloWorldActivity extends AppCompatActivity {
         Toast.makeText(this, greetingText, Toast.LENGTH_LONG).show();
     }
 }
-
+~~~
 So when you run your app again you should see something like this when you click the 'Show Greeting' button.
 
-![](../img/lab04.png)
 
-~~~
+![](../img/lab04.png)
 
 We will investigate this code more closely in the lectures.
